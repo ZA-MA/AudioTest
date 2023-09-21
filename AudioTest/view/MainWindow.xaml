@@ -10,7 +10,8 @@
         <ImageBrush ImageSource="/Images/fonForsecondTest.png" Stretch="Uniform"/>
     </Window.Background>
     <Grid>
-        <Frame Content="Frame" Panel.ZIndex="1" NavigationUIVisibility="Hidden" Margin="267,195,298,205"/>
+        <Button x:Name="Btn_exit" HorizontalAlignment="Right" Margin="0,119,246,0" VerticalAlignment="Top" Width="25" Height="25" BorderBrush="#00E30000" ClickMode="Release" Click="Btn_exit_Click" Foreground="Transparent" Background="#00000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Cursor="Hand"/>
+        <Frame x:Name="Frame" Content="Frame" Panel.ZIndex="1" NavigationUIVisibility="Hidden" Margin="58,47,298,205" Width="540" Height="500"/>
 
     </Grid>
 </Window>

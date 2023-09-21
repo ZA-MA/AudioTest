@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AudioTest
+namespace AudioTest.view.pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для TestPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class TestPage : Page
     {
-        public MainWindow()
+        public TestPage()
         {
             InitializeComponent();
-            Frame.Navigate(new view.pages.MainPage());
-        }
-        private void Btn_exit_Click(object sender, RoutedEventArgs e)
-        {
-            System.Windows.Application.Current.Shutdown();
         }
     }
 }
