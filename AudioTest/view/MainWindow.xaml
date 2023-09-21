@@ -4,9 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AudioTest"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        AllowsTransparency="True"
+        mc:Ignorable="d" Height="750" Width="900" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="/Images/fonForsecondTest.png" Stretch="Uniform"/>
+    </Window.Background>
     <Grid>
-        
+        <Frame Content="Frame" Panel.ZIndex="1" NavigationUIVisibility="Hidden" Margin="267,195,298,205"/>
+
     </Grid>
 </Window>
