@@ -772,6 +772,19 @@ namespace AudioTest.view.pages
                         Btn_restart.Visibility = Visibility.Visible;
                         IMG_NiceMen.Visibility = Visibility.Visible;
                     }
+                    else if (RB4.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question17["answer4"]);
+                        TB_Question.Text = question17["Result4"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
+                    }
                     break;
                 case 18:
                     if (RB1.IsChecked == true)
