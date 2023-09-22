@@ -49,11 +49,12 @@
                     <ImageBrush ImageSource="/Images/buttonNext.png"/>
                 </Button.Background>
             </Button>
-            <Button Style="{StaticResource MyButtonStyle}" x:Name="Btn_restart" Margin="145,9,145,48" Click="Btn_restart_Click"  BorderBrush="#00707070" Grid.Row="3" Width="40" Height="40" Grid.ColumnSpan="2">
+            <Button Style="{StaticResource MyButtonStyle}" x:Name="Btn_restart" Margin="145,29,145,28" Click="Btn_restart_Click"  BorderBrush="#00707070" Grid.Row="3" Width="40" Height="40" Grid.ColumnSpan="2">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Images/buttonNext.png"/>
+                    <ImageBrush ImageSource="/images/buttonReplay.png"/>
                 </Button.Background>
             </Button>
+            <Image x:Name="IMG_NiceMen" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="154" Margin="88,123,0,0" Grid.RowSpan="4" VerticalAlignment="Top" Width="174" Source="/images/niceMen.png"/>
         </Grid>
         <ListBox x:Name="L_Answers" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" d:ItemsSource="{d:SampleData ItemCount=8}" RenderTransformOrigin="0.5,0.5" FontFamily="Segoe UI Black" Width="130" Height="180" Margin="0,0,425,330">
             <ListBox.Style>

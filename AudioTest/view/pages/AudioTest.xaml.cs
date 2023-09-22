@@ -191,6 +191,7 @@ namespace AudioTest.view.pages
             RB3.Visibility = Visibility.Collapsed;
             RB4.Visibility = Visibility.Collapsed;
             Btn_restart.Visibility = Visibility.Collapsed;
+            IMG_NiceMen.Visibility = Visibility.Collapsed;
         }
         public void Check()
         {
@@ -455,6 +456,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -465,6 +467,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 9:
@@ -477,6 +480,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -487,6 +491,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 10:
@@ -499,6 +504,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -509,6 +515,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 11:
@@ -522,6 +529,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -533,6 +541,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -544,6 +553,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 12:
@@ -557,6 +567,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -568,6 +579,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -579,6 +591,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 13:
@@ -592,6 +605,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -603,6 +617,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -614,6 +629,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 14:
@@ -627,6 +643,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -638,6 +655,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -649,6 +667,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 15:
@@ -662,6 +681,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -673,6 +693,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -684,6 +705,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 16:
@@ -696,6 +718,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -706,6 +729,7 @@ namespace AudioTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 17:
@@ -720,6 +744,7 @@ namespace AudioTest.view.pages
                         RB4.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -732,6 +757,7 @@ namespace AudioTest.view.pages
                         RB4.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -744,6 +770,7 @@ namespace AudioTest.view.pages
                         RB4.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
                 case 18:
@@ -757,6 +784,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -768,6 +796,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -779,6 +808,7 @@ namespace AudioTest.view.pages
                         RB3.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_NiceMen.Visibility = Visibility.Visible;
                     }
                     break;
             }
@@ -806,6 +836,7 @@ namespace AudioTest.view.pages
             RB2.Visibility = Visibility.Visible;
             Btn_next.Visibility = Visibility.Visible;
             Btn_restart.Visibility = Visibility.Collapsed;
+            IMG_NiceMen.Visibility = Visibility.Collapsed;
         }
     }
 }
