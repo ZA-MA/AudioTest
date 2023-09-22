@@ -10,7 +10,14 @@
         <ImageBrush ImageSource="/Images/fonForsecondTest.png" Stretch="Uniform"/>
     </Window.Background>
     <Grid>
-        <Button x:Name="Btn_exit" HorizontalAlignment="Right" Margin="0,119,246,0" VerticalAlignment="Top" Width="25" Height="25" BorderBrush="#00E30000" ClickMode="Release" Click="Btn_exit_Click" Foreground="Transparent" Background="#00000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Cursor="Hand"/>
+        <Button x:Name="Btn_exit" Style="{StaticResource MyButtonStyle}" HorizontalAlignment="Right" Margin="0,123,252,0" VerticalAlignment="Top" Width="30" Height="30" BorderBrush="#00E30000" ClickMode="Release" Click="Btn_exit_Click" Foreground="Transparent" Background="#00000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Cursor="Hand" RenderTransformOrigin="12.896,2.872" Panel.ZIndex="2">
+            <StackPanel Orientation="Horizontal" >
+                <Image Source="/Images/buttonExit.png"  Width="30" Height="30" />
+
+
+            </StackPanel>
+
+        </Button>
         <Frame x:Name="Frame" Content="Frame" Panel.ZIndex="1" NavigationUIVisibility="Hidden" Margin="58,47,298,205" Width="540" Height="500"/>
 
     </Grid>

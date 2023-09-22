@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="view\pages\AudioTest.xaml.cs">
+      <DependentUpon>AudioTest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -70,6 +73,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="view\pages\AudioTest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="view\pages\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,9 +108,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="images\exitImage.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="images\fonForsecondTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\buttonExit.png" />
+    <Resource Include="images\buttonNext.png" />
+    <Resource Include="images\buttonStart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\iconAudioTest.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

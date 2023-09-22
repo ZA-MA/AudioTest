@@ -24,6 +24,14 @@ namespace AudioTest
         {
             InitializeComponent();
             Frame.Navigate(new view.pages.MainPage());
+            FrameworkElement.StyleProperty.OverrideMetadata(typeof(Window), new FrameworkPropertyMetadata
+            {
+                DefaultValue = FindResource(typeof(Window))
+            });
+            FrameworkElement.StyleProperty.OverrideMetadata(typeof(Page), new FrameworkPropertyMetadata
+            {
+                DefaultValue = FindResource(typeof(Page))
+            });
         }
         private void Btn_exit_Click(object sender, RoutedEventArgs e)
         {

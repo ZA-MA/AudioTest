@@ -1,0 +1,55 @@
+﻿<Page x:Class="AudioTest.view.pages.AudioTest"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AudioTest.view.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="540"
+      Title="MainPage">
+
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="350" Margin="210,150,0,0" VerticalAlignment="Top" Width="330">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="133"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="107*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <RadioButton x:Name="RB1" DockPanel.Dock="Top" 
+ VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Grid.Row="1">
+                <RadioButton.Content>
+                    <TextBlock Style="{StaticResource MyRBTextStyle}" x:Name="RB1_Text"/>
+                </RadioButton.Content>
+            </RadioButton>
+
+
+            <TextBlock x:Name="TB_Question" HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="310" TextAlignment="Center" FontFamily="Segoe UI Black" FontSize="24" Grid.ColumnSpan="2"></TextBlock>
+            
+            <RadioButton x:Name="RB2" 
+                VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Margin="10,0,0,0" Grid.Row="1" Grid.Column="1">
+                <TextBlock Style="{StaticResource MyRBTextStyle}" x:Name="RB2_Text"/>
+            </RadioButton>
+            <RadioButton x:Name="RB3" 
+                VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Grid.Row="2">
+                <TextBlock Style="{StaticResource MyRBTextStyle}" x:Name="RB3_Text"/>
+            </RadioButton>
+            <RadioButton x:Name="RB4" 
+                VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Margin="10,0,0,0" Grid.Row="2" Grid.Column="1">
+                <TextBlock Style="{StaticResource MyRBTextStyle}" x:Name="RB4_Text"/>
+            </RadioButton>
+            
+            <Button Style="{StaticResource MyButtonStyle}" x:Name="Btn_next" Margin="83,29,42,28" Click="Btn_next_Click"  BorderBrush="#00707070" Grid.Column="1" Grid.Row="3" Width="40" Height="40">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Images/buttonNext.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Page>

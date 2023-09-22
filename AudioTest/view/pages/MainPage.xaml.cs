@@ -27,7 +27,7 @@ namespace AudioTest.view.pages
 
         private void Btn_start_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("view/pages/TestPage.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("view/pages/AudioTest.xaml", UriKind.Relative));
         }
     }
 }

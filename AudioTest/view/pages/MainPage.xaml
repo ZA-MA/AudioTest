@@ -10,7 +10,14 @@
 
     <Grid>
         <Grid HorizontalAlignment="Left" Height="350" Margin="210,150,0,0" VerticalAlignment="Top" Width="330">
-            <Button x:Name="Btn_start" Content="Button" HorizontalAlignment="Center" Height="28" Margin="0,238,0,0" VerticalAlignment="Top" Width="118" Click="Btn_start_Click"/>
+
+            <Button Style="{StaticResource MyButtonStyle}" x:Name="Btn_start" HorizontalAlignment="Center" Height="40" Margin="0,276,0,0" VerticalAlignment="Top" Width="40" Click="Btn_start_Click" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Images/buttonStart.png"/>
+                </Button.Background>
+            </Button>
+            <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="310" TextAlignment="Center" FontFamily="Segoe UI Black" FontSize="24"><Run Text="Тест: "/><LineBreak/><Run Text="&quot;Аудиосистемы&quot;"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="102" VerticalAlignment="Top" Width="118" Source="/Images/iconAudioTest.png" Margin="0,140,0,0"/>
         </Grid>
 
     </Grid>
