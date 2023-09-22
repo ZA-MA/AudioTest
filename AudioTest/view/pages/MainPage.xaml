@@ -16,7 +16,7 @@
                     <ImageBrush ImageSource="/Images/buttonStart.png"/>
                 </Button.Background>
             </Button>
-            <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="310" TextAlignment="Center" FontFamily="Segoe UI Black" FontSize="24"><Run Text="Тест: "/><LineBreak/><Run Text="&quot;Аудиосистемы&quot;"/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="310" TextAlignment="Center" FontFamily="Segoe UI Black" FontSize="24"><Run Text="Экспертная система: "/><LineBreak/><Run Text="&quot;Аудиосистемы&quot;"/></TextBlock>
             <Image HorizontalAlignment="Center" Height="102" VerticalAlignment="Top" Width="118" Source="/Images/iconAudioTest.png" Margin="0,140,0,0"/>
         </Grid>
 
