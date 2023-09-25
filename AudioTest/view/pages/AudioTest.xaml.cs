@@ -38,7 +38,7 @@ namespace AudioTest.view.pages
         };
         static Dictionary<string, string> question2 = new Dictionary<string, string>()
         {
-            {"text", "Форма динамики?" },
+            {"text", "Форма динамиков?" },
             {"answer1", "Круглые"},
             {"answer2", "Овальные" },
         };
@@ -57,10 +57,10 @@ namespace AudioTest.view.pages
         };
         static Dictionary<string, string> question5 = new Dictionary<string, string>()
         {
-            {"text", "Бюджет?" },
-            {"answer1", "1501-2500 р"},
-            {"answer2", "2501-4000 р" },
-            {"answer3", "4001-6000 р" },
+            {"text", "Какой жанр музыки слушаете?" },
+            {"answer1", "Классика"},
+            {"answer2", "Поп" },
+            {"answer3", "Рок" },
         };
         static Dictionary<string, string> question6 = new Dictionary<string, string>()
         {
@@ -72,7 +72,8 @@ namespace AudioTest.view.pages
         {
             {"text", "Какие разъемы?" },
             {"answer1", "Блютуз"},
-            {"answer2", "USB" },
+            {"answer2", "Aux" },
+            {"answer3", "USB" },
         };
         static Dictionary<string, string> question8 = new Dictionary<string, string>()
         {
@@ -84,56 +85,56 @@ namespace AudioTest.view.pages
         };
         static Dictionary<string, string> question9 = new Dictionary<string, string>()
         {
-            {"text", "Номинальная мощность?" },
-            {"answer1", "51-100 Вт"},
-            {"answer2", "101-150 Вт" },
+            {"text", "Насколько громко?" },
+            {"answer1", "Громко"},
+            {"answer2", "Тихо" },
             {"Result1", "Ural Молния АС-МЛ130" },
             {"Result2", "EDGE EDSPR O5N-E0" },
         };
         static Dictionary<string, string> question10 = new Dictionary<string, string>()
         {
-            {"text", "Максимальная мощность?" },
-            {"answer1", "Менее 200 Вт"},
-            {"answer2", "201-400 Вт" },
+            {"text", "Для участия в соревнованиях по автозвуку?" },
+            {"answer1", "Нет"},
+            {"answer2", "Да" },
             {"Result1", "DEXP YW 6511" },
             {"Result2", "Ural PATRIOT BLACK EDITION" },
         };
         static Dictionary<string, string> question11 = new Dictionary<string, string>()
         {
-            {"text", "Минимальная частота?" },
-            {"answer1", "Менее 50"},
-            {"answer2", "51-100" },
-            {"answer3", "101-150" },
+            {"text", "Тип корпуса?" },
+            {"answer1", "Пластик"},
+            {"answer2", "Железо" },
+            {"answer3", "Алюминий" },
             {"Result1", "EDGE EDBPRO6-E9" },
             {"Result2", "Ural TT 130 ДРАЙВ" },
             {"Result3", "Ural TT 165" },
         };
         static Dictionary<string, string> question12 = new Dictionary<string, string>()
         {
-            {"text", "Максимальная мощность?" },
-            {"answer1", "Менее 200"},
-            {"answer2", "201-400" },
-            {"answer3", "401-600" },
+            {"text", "Куда устанавливать?" },
+            {"answer1", "В передние двери"},
+            {"answer2", "В задние двери" },
+            {"answer3", "В полку" },
             {"Result1", "Ural BULAVA AS-BV200" },
             {"Result2", "Kicx HeadShot F65" },
             {"Result3", "Pioneer TS-M 1610PRO" },
         };
         static Dictionary<string, string> question13 = new Dictionary<string, string>()
         {
-            {"text", "Чувствительность?" },
-            {"answer1", "Менее 90 дБ"},
-            {"answer2", "90.1-100 дБ" },
-            {"answer3", "100.01 и более" },
+            {"text", "Какой автомобиль?" },
+            {"answer1", "Легковой"},
+            {"answer2", "Внедорожник" },
+            {"answer3", "Грузовой" },
             {"Result1", "Ural AS-W50M" },
             {"Result2", "Pioneer TS-M 2010PRO" },
             {"Result3", "Hertz SV 250.1" },
         };
         static Dictionary<string, string> question14 = new Dictionary<string, string>()
         {
-            {"text", "Объем памяти?" },
-            {"answer1", "32 gb"},
-            {"answer2", "64 gb" },
-            {"answer3", "128 gb" },
+            {"text", "Скорость работы?" },
+            {"answer1", "Медленно"},
+            {"answer2", "Быстро" },
+            {"answer3", "Очень быстро" },
             {"Result1", "Teyes X1" },
             {"Result2", "Teyes CC2" },
             {"Result3", "Teyes CC2 Plus" },
@@ -170,10 +171,10 @@ namespace AudioTest.view.pages
         };
         static Dictionary<string, string> question18 = new Dictionary<string, string>()
         {
-            {"text", "Максимальная выходная мощность?" },
-            {"answer1", "Менее 100 Вт"},
-            {"answer2", "101-200 Вт" },
-            {"answer3", "201-300 Вт" },
+            {"text", "Наличие микрофона?" },
+            {"answer1", "Встроенный"},
+            {"answer2", "Нет" },
+            {"answer3", "Дополнительно подключается" },
             {"Result1", "ACV AVS-1701R" },
             {"Result2", "SWAT MEX-1046UBG" },
             {"Result3", "PROLOGY GT-160" },
@@ -279,6 +280,10 @@ namespace AudioTest.view.pages
 
                         RB1_Text.Text = questions["answer1"];
                         RB2_Text.Text = questions["answer2"];
+                        RB3_Text.Text = questions["answer3"];
+
+                        RB3.Visibility = Visibility.Visible;
+
                     }
                     break;
                 case 4:

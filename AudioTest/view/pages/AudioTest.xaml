@@ -29,7 +29,7 @@
             </RadioButton>
 
 
-            <TextBlock x:Name="TB_Question" HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="310" TextAlignment="Center" FontFamily="Segoe UI Black" FontSize="24" Grid.ColumnSpan="2"></TextBlock>
+            <TextBlock x:Name="TB_Question" HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="98" Width="310" TextAlignment="Center" FontFamily="Segoe UI Black" FontSize="24" Grid.ColumnSpan="2"></TextBlock>
 
             <RadioButton x:Name="RB2" 
                 VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Margin="10,0,0,0" Grid.Row="1" Grid.Column="1">
@@ -56,7 +56,7 @@
             </Button>
             <Image x:Name="IMG_NiceMen" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="154" Margin="88,123,0,0" Grid.RowSpan="4" VerticalAlignment="Top" Width="174" Source="/images/niceMen.png"/>
         </Grid>
-        <ListBox x:Name="L_Answers" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" d:ItemsSource="{d:SampleData ItemCount=8}" RenderTransformOrigin="0.5,0.5" FontFamily="Segoe UI Black" Width="130" Height="180" Margin="0,0,425,330">
+        <ListBox x:Name="L_Answers" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" d:ItemsSource="{d:SampleData ItemCount=8}" RenderTransformOrigin="0.5,0.5" FontFamily="Segoe UI Black" Height="180" Margin="0,0,406,320">
             <ListBox.Style>
                 <Style TargetType="ListBox">
                     <Setter Property="Background" Value="Transparent"/>
